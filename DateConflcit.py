@@ -5,16 +5,19 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 
+# loads the dataset, specially just for the special events one
 def loadData():
         df = pd.read_excel("dates.xlsx", engine='openpyxl')
         return df.to_numpy()
 
+# converts a time stamp in an interger array denotes each of the date info
 def conv(time):
     timestamp = datetime.strptime(time, "%Y-%m-%d %H:%M:%S")
     return [timestamp.year, timestamp.month, timestamp.day, timestamp.hour, timestamp.minute, timestamp.second]
 
+# insert a date, and check if it colides with any event, returns collision if it does
 def dateColision(date):
-    #return effected lots
+    #
     data = loadData()
     comp = conv(date)
     for i in range(0,len(data)):
