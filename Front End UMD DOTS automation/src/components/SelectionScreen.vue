@@ -29,7 +29,7 @@ permitToParkingMap.set("Summer Commuter", new Set(["9b","SDG","Lot 19","Lot 17a"
 permitToParkingMap.set("Summer Resident", new Set(["9b","SDG","Lot 19","Lot 17a","Lot 16a","Lot 16b", "Lot 16f","Lot 11b","Lot 1b","Lot 1c", "Lot 1d", "Lot 1f","6"]))
 permitToParkingMap.set("Faculty/Staff", new Set(["K3","UU","U1","U2","V2","V3","X1","XX1","Z","SDG","Lot 1b","Lot 1c", "Lot 1d", "Lot 1f", "4a", "4b", "4h","4j","4k","4m","4n","4t","6","8","9b","10a","11b","12a","14a","14b","14c","15","16a","16b","16f","17a","19"]))
 
-const backendAPI = "http://localhost:3000/"
+const backendAPI = "https://ic25-hackathon-dots-2.onrender.com"
 
 function removeAllInstances(array, elementToRemove) {
   let i = 0;
