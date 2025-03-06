@@ -26,7 +26,7 @@ const server = http.createServer((req,res) => {
 
 
 async function AiQuery(query){
-    const openai = new OpenAI({ apiKey: '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' });
+    const openai = new OpenAI({ apiKey: 'API-KEY' });
     const completion = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         messages: [
