@@ -1,6 +1,6 @@
 # IC25-Hackathon-DOTS: TerpPark
 ### Presentation:
-Download: [IC Challenge Slides.pdf](https://github.com/user-attachments/files/19142854/IC.Challenge.Slides.pdf) 
+Download: [IC_Challenge_TerpPark.pdf](https://github.com/user-attachments/files/19142854/IC.Challenge.Slides.pdf) 
 ### Description:
 This is the proof of concept for the IC25-Hackathon-DOTS Project. It's solely a proof of concept to solve parking across campus so the code is unstable.  
 
